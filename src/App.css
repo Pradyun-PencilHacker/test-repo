@@ -55,13 +55,13 @@
   grid-area: section_2;
 }
 
-@media(max-width:460px){
+@media(max-width:650px){
   .container{
     display: flex;
     flex-direction: column;
   }
 
   .item{
-    height: 10rem;
+    height: auto;
   }
 }
