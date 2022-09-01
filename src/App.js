@@ -20,7 +20,7 @@ function App() {
       <div className="container">
         {items.slice(0, visible).map((item) => (
           <div className="card">
-            <img src="https://source.unsplash.com/random/600x300?v=1"></img>
+            <img src="https://source.unsplash.com/random/600x300?v=1" alt="Random image from unsplash"></img>
             <div>
               <p>{item.title}</p>
             </div>
