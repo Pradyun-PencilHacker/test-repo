@@ -11,7 +11,7 @@ function App() {
       .then((data) => setItems(data));
   }, []);
 
-  const showMoreItems = () => {
+  const loadItems = () => {
     setVisible((prevState) => prevState + 3);
   };
 
@@ -20,13 +20,13 @@ function App() {
       <div className="container">
         {items.slice(0, visible).map((item) => (
           <div className="card">
-            <img src="https://source.unsplash.com/random/600x300?v=1" alt="unsplash"></img>
-            <div>
-              <p>{item.title}</p>
+            <img src="https://source.unsplash.com/random/600x300" alt="unsplash"></img>
+            <div className="card-title">
+              <h4>{item.title}</h4>
             </div>
           </div>
         ))}
-         <button onClick={showMoreItems}>Load More</button>
+         <button onClick={loadItems}>Load More</button>
       </div>
      
     </div>
