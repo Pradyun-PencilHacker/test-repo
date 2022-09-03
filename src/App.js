@@ -7,75 +7,75 @@ function App() {
   const data = [
     {
       userId: "1",
-      title: "Title 1",
+      title: "Guide to using Figma",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Figma, Typography"
+      tags: "#Figma #Typography"
     },
     {
       userId: "2",
-      title: "Title 2",
+      title: "Use illustrations to make your layout pop",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Typography, Layouts, Figma"
+      tags: "#Typography #Layouts #Figma"
     },
     {
       userId: "3",
-      title: "Title 3",
+      title: "How not to use colour",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Graphic design, Typography, CSS"
+      tags: "#Graphic design #Typography #CSS"
     },
     {
       userId: "4",
-      title: "Title 4",
+      title: "The basics of layout",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Layouts, CSS, Typography"
+      tags: "#Layouts #CSS #Typography"
     },
     {
       userId: "5",
-      title: "Title 5",
+      title: "Wireframing 101",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Figma, Graphic design, Layouts"
+      tags: "#Figma #Graphic design #Layouts"
     },
     {
       userId: "6",
-      title: "Title 6",
+      title: "10 ways art inspires design",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Graphic design, CSS"
+      tags: "#Graphic design #CSS"
     },
     {
       userId: "7",
-      title: "Title 7",
+      title: "Mistakes to avoid as a newbie designer",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Figma, Layouts, CSS"
+      tags: "#Figma #Layouts #CSS"
     },
     {
       userId: "8",
-      title: "Title 8",
+      title: "Common design thinking pitfalls",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Layouts, CSS, Typography"
+      tags: "#Layouts #CSS #Typography"
     },
     {
       userId: "9",
-      title: "Title 9",
+      title: "How to take down a design brief",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Graphic design, Typography"
+      tags: "#Graphic design #Typography"
     },
     {
       userId: "10",
-      title: "Title 10",
+      title: "Creating a playful color palette",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Figma, CSS, Layouts"
+      tags: "#Figma #CSS #Layouts"
     },
     {
       userId: "11",
-      title: "Title 11",
+      title: "Utilizing type to make your design stand out",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Typography, CSS"
+      tags: "#Typography #CSS"
     },
     {
       userId: "12",
-      title: "Title 12",
+      title: "Take your Photoshop skills to the next level",
       body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque natus possimus deleniti voluptatibus ad sunt eveniet, ea soluta eligendi quasi earum debitis inventore modi odit quo tempora ex eius",
-      tags: "Graphic design, Figma, CSS, Layouts"
+      tags: "#Graphic design #Figma #CSS #Layouts"
     }
   ];
 
@@ -131,7 +131,7 @@ function App() {
               alt="unsplash"
             ></img>
             <div className="card-title">
-              <h4>{item.title}</h4>
+              <h3>{item.title}</h3>
             </div>
             <div className="card-tags">
               <span>{item.tags}</span>
