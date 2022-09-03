@@ -13,15 +13,37 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.btn-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.btn-container button{
+  padding: 0.8rem;
+  background-color: hsl(182, 25%, 50%);
+  font-weight: 600;
+  border: none;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  transition: 0.5s;
+}
+
+.btn-container button:active{
+  background-color:  hsl(182, 25%, 20%);
+}
 
 .card{
   width: 100%;
   max-width: 30rem;
   padding: 2rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   background-color: #3859a1;
   color: white;
-  border-radius: 0.5rem;
+  
+  border-radius: 1rem;
 }
 
 .card img{
@@ -32,15 +54,34 @@
   margin: 0.5rem;
 }
 
-button{
+.card-tags{
+  margin: 0.5rem;
+}
+
+.card:hover{
+  border-radius: 2rem;
+  transition: 0.8s;
+  background-color: hsl(221, 48%, 60%);
+  cursor: pointer;
+}
+
+.load-btn{
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;
   outline: none;
   width: 100%;
   padding: 1rem;
-  margin: 0 1.2rem;
+  margin: 0.5rem 1.2rem;
   background-color: #3859a1;
   color: white;
 }
+
+.load-btn:hover{
+  background-color:  hsl(221, 48%, 60%) ;
+  font-size: 1.1rem;
+  transition: 0.5s;
+}
+
+
 
